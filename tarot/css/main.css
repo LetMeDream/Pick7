@@ -1,0 +1,110 @@
+html,body
+{
+    
+    width:100%;
+    height:100%;
+}
+.runes{
+    margin-left:20%;
+    margin-top:200px;
+    position:absolute;
+  
+}
+.sh{
+    margin-top:100px;
+}
+.option1,.option2,.option3,.option4,.option5,.option6,.option7,.option8,.option9,.option10,.option11,.option12,.option13,.option14,.option15,.option16,.option17,.option18,.option19,.option20,.option21,.option22,.option23,.option24{
+    margin:2px;
+    cursor: pointer;
+    color:black;
+    
+    
+}
+.co-1{
+   padding-left: 2px;
+   padding-right: 2px;
+}
+.destiny{
+    margin-left:-10%;
+    margin-top:420px;
+    position:absolute;
+  
+}
+
+
+#hider1,#hider2{
+    z-index: 1;
+    background-color: #442c2e;
+}
+/*Destiny boxes*/
+.destiny1,.destiny2,.destiny3,.destiny4,.destiny5,.destiny6,.destiny7{
+   height: 40px;
+   line-height: 40px;
+   border-style:solid; 
+   border-color: #442c2e; 
+   border-radius: 8px;
+   margin:1px;
+   border-width: 0.2px;
+}
+
+/* trying to link .picked with jquery */
+.picked{
+    background:#442c2e;
+    background-color:#442c2e;
+    box-shadow:inset 0 -8px 0 0 rgba(0,0,0,.2),
+      1px 1px 0 0 #442c2e,
+      2px 2px 0 0 #442c2e,
+      3px 3px 0 0 #442c2e,
+      4px 4px 0 0 #442c2e,
+      5px 5px 0 0 #442c2e,
+      6px 6px 0 0 #442c2e,
+      7px 7px 0 0 #442c2e,
+      8px 8px 0 0 #442c2e,
+      9px 9px 0 0 #442c2e,
+      10px 10px 0 0 #442c2e,
+      11px 11px 0 0 #442c2e,
+      12px 12px 0 0 #442c2e;
+  
+}
+/*button*/
+/*Button
+-----------------*/
+.shuffleBtn{
+    width:100px;
+}
+button{
+    outline:0; 
+    font-size:1em;
+    
+    font-weight:600;
+    background:rgba(254, 254, 255, 0.993);
+    border:none;
+    width:25px;
+    padding: 5px;
+    transition:all .3s ease-out; 
+    box-shadow:inset 0 -8px 0 0 rgba(0,0,0,.2),
+      1px 1px 0 0 #442c2e,
+      2px 2px 0 0 #442c2e,
+      3px 3px 0 0 #442c2e,
+      4px 4px 0 0 #442c2e,
+      5px 5px 0 0 #442c2e,
+      6px 6px 0 0 #442c2e,
+      7px 7px 0 0 #442c2e,
+      8px 8px 0 0 #442c2e,
+      9px 9px 0 0 #442c2e,
+      10px 10px 0 0 #442c2e,
+      11px 11px 0 0 #442c2e,
+      12px 12px 0 0 #442c2e;
+  }
+  button:hover{
+    color:#444;
+  }
+  button:active{
+    color:#222;
+    box-shadow:inset 0 -4px 0 0 rgba(0,0,0,.2),
+      1px 1px 0 0 #442c2e,
+      2px 2px 0 0 #442c2e,
+      3px 3px 0 0 #442c2e,
+      4px 4px 0 0 #442c2e,
+      5px 5px 0 0 #442c2e;
+  }

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+  <head>
+    <title>
+      Show destiny
+    </title>
+    <style>
+      body {
+        font-family: arial;
+      }
+      ul {
+        color: white;
+        padding: 1em;
+        width: 52em;
+        background-color: purple;
+      }
+      li {
+        display: inline-block;
+        width: 4em;
+        text-align: center;
+      }
+     
+    </style>
+    <!-- JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- JQUERY END-->
+    <script>
+         $( document ).ready(function() {
+        
+            var target = $(document).find('.target');
+            var target2 = $(document).find('.target2');
+            var target3 = $(document).find('.target3');
+            var target4 = $(document).find('.target4');
+            var target5 = $(document).find('.target5');
+            var target6 = $(document).find('.target6');
+            var target7 = $(document).find('.target7');
+            target.text(localStorage.getItem('opt1'));
+            target2.text(localStorage.getItem('opt2'));
+            target3.text(localStorage.getItem('opt3'));
+            target4.text(localStorage.getItem('opt4'));
+            target5.text(localStorage.getItem('opt5'));
+            target6.text(localStorage.getItem('opt6'));
+            target7.text(localStorage.getItem('opt7'));
+        });
+    </script>
+  </head>
+  <body>
+    <h5>Primera Runa: </h5><p class='target'>Empty target</p>
+    <h5>Segunda Runa: </h5><p class='target2'>Empty target</p>
+    <h5>Tercera Runa: </h5><p class='target3'>Empty target</p>
+    <h5>Cuarta Runa: </h5><p class='target4'>Empty target</p>
+    <h5>Quinta Runa: </h5><p class='target5'>Empty target</p>
+    <h5>Sexta Runa: </h5><p class='target6'>Empty target</p>
+    <h5>Septima Runa: </h5><p class='target7'>Empty target</p>
+   
+  </body>
+</html>
